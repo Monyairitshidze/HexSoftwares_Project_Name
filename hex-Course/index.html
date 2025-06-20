@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- linking html with css -->
+    <link rel="stylesheet" href="index.css">
+    <!-- LINKING HTML WITH JAVASCRIPT -->
+     <script src="index.js" defer></script>
+    <title>To do APP</title>
+</head>
+<body>
+    <!-- content to  be displayed  -->
+    <div class="entirer-content">
+        
+        <div class="heading-cover">
+            <h1 class="heading">Simple To-Do List</h1>
+        </div>
+
+        <div class="content">
+            <p class="description">Todays task conquer the world</p>
+        </div>
+
+        <div>
+            <form>
+                <input type="text" placeholder="Enter Task" required id="text-field">
+                <br>
+                <br>
+                <button class="add-task" type="submit">Add Task</button>
+                <br>
+                <br>
+                <button class="view-task" onclick="handleDirectionToTaskPage(event)">View Taks</button>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>
